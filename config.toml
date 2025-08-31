@@ -1,0 +1,9 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = "PaperMod"
+mainSections = ["posts"] 
+
+[params]
+  showReadingTime = true
+  contentWidth = "80%"
