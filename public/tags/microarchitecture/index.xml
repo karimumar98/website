@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Microarchitecture on </title>
+    <link>//localhost:1313/tags/microarchitecture/</link>
+    <description>Recent content in Microarchitecture on </description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Aug 2025 20:10:56 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/microarchitecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning GPU Microarchitecture on a Budget: Reverse Engineering the Jetson Nano with Microbenchmarks</title>
+      <link>//localhost:1313/posts/microbenchmarking/</link>
+      <pubDate>Sun, 31 Aug 2025 20:10:56 +0200</pubDate>
+      <guid>//localhost:1313/posts/microbenchmarking/</guid>
+      <description>&lt;p&gt;I work with GPUs at work every day, but I’ve always struggled to really understand what’s happening under the hood. Most of my work is through high-level libraries and frameworks, which abstract away all the scheduling, memory hierarchies, and execution details. I knew GPUs were fast, but I didn’t really understand why.&lt;/p&gt;
+&lt;p&gt;At university, exercises in reverse engineering CPUs really helped me understand cache hierarchies, instruction latencies, and performance quirks. I decided to try something similar on an Nvidia Jetson Orin Nano: treat the GPU as a black box and reverse engineer its microarchitecture through simple experiments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
