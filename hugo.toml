@@ -1,2 +1,6 @@
 theme = "PaperMod"
 mainSections = ["posts"] 
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
