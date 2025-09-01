@@ -1,4 +1,4 @@
-theme = "PaperMod"
+theme = "hugo-PaperMod"
 mainSections = ["posts"] 
 
 [caches]

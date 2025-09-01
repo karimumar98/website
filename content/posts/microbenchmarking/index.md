@@ -41,13 +41,11 @@ __global__ void divergent_kernel(unsigned long long clock_count, unsigned long l
         
 }
 ```
-Threads execute in lockstep until they reach the if (group == i) condition. If any thread in a warp belongs to group i, all other threads in the warp must wait until it finishes, effectively serializing execution. Here, each thread spins for a predetermined number of cycles (100 million). The kernel runs fastest when all threads belong to the same group, indicating that `N` is the warp size or a multiple of it.
+Threads execute in lockstep until they reach the `if (group == i)` condition. If any thread in a warp belongs to group `i`, all other threads in the warp must wait until it finishes, effectively serializing execution. Here, each thread spins for a predetermined number of cycles (100 million). The kernel runs fastest when all threads belong to the same group, indicating that `N` is the warp size or a multiple of it.
 
 Timing the execution for increasing values of `N` yields the following results:
 
 ![alt text](threads_per_warp.png "Title")
-
-There are clear valleys at 32 and multiples of 32, indicating that 32 is the size of a warp.
 
 There are clear valleys at 32 and its multiples, indicating that the warp size is 32 threads.
 

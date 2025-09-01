@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Blog'
-theme = "PaperMod"
+theme = "hugo-PaperMod"
 mainSections = ["posts"] 
 
 [params]
